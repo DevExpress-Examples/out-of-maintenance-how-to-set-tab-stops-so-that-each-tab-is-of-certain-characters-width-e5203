@@ -170,7 +170,7 @@
                 <dxb:BarCheckItem x:Name="biViewVerticalRuler" Command="{Binding ViewVerticalRuler, Mode=OneTime, Source={StaticResource commands}}"/>
                 <dxb:BarButtonItem x:Name="biViewZoomOut" Command="{Binding ViewZoomOut, Mode=OneTime, Source={StaticResource commands}}"/>
                 <dxb:BarButtonItem x:Name="biViewZoomIn" Command="{Binding ViewZoomIn, Mode=OneTime, Source={StaticResource commands}}"/>
-                <dxb:BarButtonItem x:Name="barButtonItem1" Content="Set Tab Stop 4 Chars Wide" LargeGlyph="pack://application:,,,/DevExpress.Images.v13.2;component/Images/Actions/Stretch_32x32.png" ItemClick="barButtonItem1_ItemClick"/>
+                <dxb:BarButtonItem x:Name="barButtonItem1" Content="Set Tab Stop 4 Chars Wide" LargeGlyph="pack://application:,,,/DevExpress.Images.v21.1;component/Images/Actions/Stretch_32x32.png" ItemClick="barButtonItem1_ItemClick"/>
             </dxb:BarManager.Items>
             <DockPanel>
                 <dxr:RibbonControl x:Name="ribbonControl1" DockPanel.Dock="Top">
